@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test ajax</title>
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<form id="myForm" action="success.json">
+		<input type="text" name="fio" id="name" placeholder ="Ф.И.О."><br><br>
+		<input type="text" name="email" id="email" placeholder="Email"><br><br>
+		<input type="text" name="phone" id="phone" placeholder="Phone"><br><br>
+		<input type="submit" id="submitButton" nume="submit" value="Отправь"><br><br>
+	</form>
+	<div id="resultContainer">
+
+	</div>
+	<style>
+		input{
+			width: 200px;
+		}
+	</style>
+</body>
+</html>
